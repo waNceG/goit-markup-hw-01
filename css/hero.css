@@ -1,0 +1,18 @@
+#hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
