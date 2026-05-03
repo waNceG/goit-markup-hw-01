@@ -1,4 +1,4 @@
-#header .logo {
+.header .logo {
     font-family: 'raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -17,6 +17,14 @@
     color: #2E2F42;
 }
 
+.page-nav .link:hover {
+    color: #404bbf;
+}
+
+.page-nav .link:focus {
+    color: #404bbf;
+}
+
 .address .link {
     font-weight: 400;
     font-size: 16px;
@@ -27,7 +35,15 @@
     font-style: normal;
 }
 
-#header .accent {
+.address .link:hover {
+    color: #404bbf;
+}
+
+.address .link:focus {
+    color: #404bbf;
+}
+
+.header .accent {
     font-weight: 700;
     font-size: 18px;
     /* line-height: 24px; */

@@ -1,8 +1,8 @@
-#footer {
+.footer {
     background-color: #2E2F42;
 }
 
-#footer p {
+.footer-text {
     font-weight: 400;
     font-size: 16px;
     /* line-height: 24px; */
@@ -11,17 +11,17 @@
     color: #F4F4FD;
 }
 
-#footer .logo {
+.footer .logo {
     font-family: 'raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.33333;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #f4f4fd;
 }
 
-#footer .accent {
+.footer .accent {
     font-weight: 700;
     font-size: 18px;
     /* line-height: 24px; */

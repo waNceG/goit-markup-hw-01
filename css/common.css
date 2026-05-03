@@ -1,10 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    background-color: #fff;
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
 }
 
 a {
