@@ -7,6 +7,22 @@
     color: #2E2F42;
 }
 
+.features {
+    padding: 60px 156px 120px;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 36px;
+    /* line-height: 40px; */
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
 .list-text {
     font-weight: 400;
     font-size: 16px;
@@ -14,4 +30,16 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.features .container {
+    display: flex;
+    align-items: center;
+}
+
+.features .team-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
 }

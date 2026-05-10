@@ -6,6 +6,12 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    padding-top: 0;
+    padding-bottom: 72px;
+}
+
+.portfolio {
+    padding: 120px 156px;
 }
 
 .portfolio .list-title {
@@ -24,4 +30,17 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.portfolio .container {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio .port-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
 }

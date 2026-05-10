@@ -1,5 +1,6 @@
 .team {
     background-color: #F4F4FD;
+    padding: 120px 156px;
 }
 
 .team-title {
@@ -10,6 +11,8 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    padding-top: 0;
+    padding-bottom: 72px;
 }
 
 .team .list-title {
@@ -34,4 +37,16 @@
 
 .list {
     background-color: #ffffff;
+}
+
+.team .container {
+    display: flex;
+    align-items: center;
+}
+
+.team .team-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
 }

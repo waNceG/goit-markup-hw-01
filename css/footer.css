@@ -1,5 +1,6 @@
 .footer {
     background-color: #2E2F42;
+    padding: 100px 156px;
 }
 
 .footer-text {
@@ -29,4 +30,15 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+}
+
+.footer .container-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
