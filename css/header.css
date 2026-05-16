@@ -1,5 +1,4 @@
 .header {
-    padding: 24px 156px;
     border-bottom: 1px solid #e7e9fc
 }
 
@@ -13,19 +12,26 @@
     color: #2E2F42;
 }
 
-.header .container {
-    justify-content: space-around;
-    flex: 1 1 1158px;
-}
-
 .nav-list {
     display: flex;
     gap: 40px;
+    margin-left: 74px;
 }
 
 .contact-list {
     display: flex;
     gap: 40px;
+    margin-left: 340px;
+}
+
+.page-nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.address {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .page-nav .link {
@@ -35,8 +41,6 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .page-nav .link:hover {
