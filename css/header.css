@@ -15,23 +15,13 @@
 .nav-list {
     display: flex;
     gap: 40px;
-    margin-left: 74px;
+    margin-left: 76px;
 }
 
 .contact-list {
     display: flex;
     gap: 40px;
     margin-left: 340px;
-}
-
-.page-nav {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.address {
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .page-nav .link {
