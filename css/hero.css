@@ -14,6 +14,10 @@
     margin: 0 auto 48px;
 }
 
+.hero .container {
+    flex-direction: column;
+}
+
 .button {
     font-weight: 500;
     font-size: 16px;

@@ -1,9 +1,6 @@
 .header {
     padding: 24px 156px;
-}
-
-.page-nav {
-    margin-left: 76px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header .logo {
@@ -17,22 +14,18 @@
 }
 
 .header .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex: 1 1 1158px;
 }
 
 .nav-list {
     display: flex;
-    flex-direction: row;
     gap: 40px;
 }
 
 .contact-list {
     display: flex;
-    flex-direction: row;
     gap: 40px;
-    margin-left: 340px;
 }
 
 .page-nav .link {
@@ -42,6 +35,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .page-nav .link:hover {
@@ -60,6 +55,8 @@
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .address .link:hover {

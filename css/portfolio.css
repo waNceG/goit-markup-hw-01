@@ -35,8 +35,6 @@
 }
 
 .portfolio .container {
-    display: flex;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -44,8 +42,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    row-gap: 24px;
-    column-gap: 48px;
+    row-gap: 48px;
+    column-gap: 24px;
     justify-content: center;
 }
 
