@@ -21,6 +21,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin: 0;
 }
 
 .portfolio .list-text {
@@ -30,17 +31,34 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin: 0;
 }
 
 .portfolio .container {
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .portfolio .port-list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 24px;
+    row-gap: 24px;
+    column-gap: 48px;
     justify-content: center;
+}
+
+.portfolio .con-2 {
+    padding: 32px 16px;
+    margin: 0;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+
+.portfolio .list {
+    flex-basis: calc((100% - 5 * 24px) / 6);
 }
