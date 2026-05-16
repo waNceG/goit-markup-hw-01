@@ -12,16 +12,26 @@
     color: #2E2F42;
 }
 
+.address {
+    margin-left: auto;
+}
+
+.page-nav {
+    margin-left: 76px;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
 .nav-list {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
 }
 
 .contact-list {
     display: flex;
     gap: 40px;
-    margin-left: 340px;
 }
 
 .page-nav .link {
@@ -31,6 +41,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .page-nav .link:hover {
